@@ -44,6 +44,7 @@ function App() {
         <Alert alert={alert}></Alert>
         <div className="container">
           <Routes>
+            <Route path="/donation" element={<About mode={mode} />}/>
             <Route path="/about" element={<About mode={mode} />}/>
             <Route exact path="/" element={<TextForm color={mode === 'light' ? 'white' : 'black'} onClick={() => handleToggleModeClick()} onShowAlert={(message, type) => showAlert(message, type)} />
             } />

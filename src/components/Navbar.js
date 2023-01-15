@@ -20,6 +20,9 @@ function Navbar(props) {
               <li className="nav-item">
                 <Link className="nav-link" to="/about">About</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/donation">About</Link>
+              </li>
             </ul>
             <div className="form-check form-switch">
               {/*eslint-disable-next-line*/}
